@@ -10,32 +10,32 @@ Esta página contém uma visão geral das bibliotecas clientes para usar a API d
 
 <!-- body -->
 Para desenvolver aplicações usando a [API REST do Kubernetes](/docs/reference/using-api/),
-você não precisa implementar as chamadas da API e os tipos de solicitação/resposta. 
+você não precisa implementar as chamadas da API e os tipos de requisição/resposta. 
 Você pode usar uma biblioteca cliente para a linguagem de programação que está usando.
 
 As bibliotecas clientes geralmente lidam com tarefas comuns para você, como autenticação.
-A maioria das bibliotecas de clientes podem fazer a descoberta e usar a Conta de Serviço do Kubernetes para
+A maioria das bibliotecas de clientes podem fazer a descoberta e usar a conta de serviço do Kubernetes para
 se autenticar, se o cliente API estiver sendo executado dentro do cluster do Kubernetes, ou pode
 entender o formato do [arquivo kubeconfig](/docs/tasks/access-application-cluster/configure-access-multiple-clusters/)
 para ler as credenciais e o endereço do Servidor da API.
 
 ## Bibliotecas cliente Kubernetes oficialmente suportadas
 
-As seguintes bibliotecas clientes são oficialmente mantidas pela
-[Kubernetes SIG API Machinery](https://github.com/kubernetes/community/tree/master/sig-api-machinery).
+Oficialmente mantido pelo grupo de interesse especial (do inglês Special Interest Group , ou SIG)
+[API Machinery do Kubernetes](https://github.com/kubernetes/community/tree/master/sig-api-machinery).
 
 
-| Language   | Client Library | Sample Programs |
+| Linguagem   | Biblioteca do cliente | Programas de amostra  |
 |------------|----------------|-----------------|
-| C          | [github.com/kubernetes-client/c](https://github.com/kubernetes-client/c/) | [browse](https://github.com/kubernetes-client/c/tree/master/examples)
-| dotnet     | [github.com/kubernetes-client/csharp](https://github.com/kubernetes-client/csharp) | [browse](https://github.com/kubernetes-client/csharp/tree/master/examples/simple)
-| Go         | [github.com/kubernetes/client-go/](https://github.com/kubernetes/client-go/) | [browse](https://github.com/kubernetes/client-go/tree/master/examples)
-| Haskell    | [github.com/kubernetes-client/haskell](https://github.com/kubernetes-client/haskell) | [browse](https://github.com/kubernetes-client/haskell/tree/master/kubernetes-client/example)
-| Java       | [github.com/kubernetes-client/java](https://github.com/kubernetes-client/java/) | [browse](https://github.com/kubernetes-client/java#installation)
-| JavaScript | [github.com/kubernetes-client/javascript](https://github.com/kubernetes-client/javascript) | [browse](https://github.com/kubernetes-client/javascript/tree/master/examples)
-| Perl       | [github.com/kubernetes-client/perl/](https://github.com/kubernetes-client/perl/) | [browse](https://github.com/kubernetes-client/perl/tree/master/examples)
-| Python     | [github.com/kubernetes-client/python/](https://github.com/kubernetes-client/python/) | [browse](https://github.com/kubernetes-client/python/tree/master/examples)
-| Ruby       | [github.com/kubernetes-client/ruby/](https://github.com/kubernetes-client/ruby/) | [browse](https://github.com/kubernetes-client/ruby/tree/master/examples)
+| C          | [github.com/kubernetes-client/c](https://github.com/kubernetes-client/c/) | [veja aqui](https://github.com/kubernetes-client/c/tree/master/examples)
+| dotnet     | [github.com/kubernetes-client/csharp](https://github.com/kubernetes-client/csharp) | [veja aqui](https://github.com/kubernetes-client/csharp/tree/master/examples/simple)
+| Go         | [github.com/kubernetes/client-go/](https://github.com/kubernetes/client-go/) | [veja aqui](https://github.com/kubernetes/client-go/tree/master/examples)
+| Haskell    | [github.com/kubernetes-client/haskell](https://github.com/kubernetes-client/haskell) | [veja aqui](https://github.com/kubernetes-client/haskell/tree/master/kubernetes-client/example)
+| Java       | [github.com/kubernetes-client/java](https://github.com/kubernetes-client/java/) | [veja aqui](https://github.com/kubernetes-client/java#installation)
+| JavaScript | [github.com/kubernetes-client/javascript](https://github.com/kubernetes-client/javascript) | [veja aqui](https://github.com/kubernetes-client/javascript/tree/master/examples)
+| Perl       | [github.com/kubernetes-client/perl/](https://github.com/kubernetes-client/perl/) | [veja aqui](https://github.com/kubernetes-client/perl/tree/master/examples)
+| Python     | [github.com/kubernetes-client/python/](https://github.com/kubernetes-client/python/) | [veja aqui](https://github.com/kubernetes-client/python/tree/master/examples)
+| Ruby       | [github.com/kubernetes-client/ruby/](https://github.com/kubernetes-client/ruby/) | [veja aqui](https://github.com/kubernetes-client/ruby/tree/master/examples)
 
 ## Bibliotecas clientes mantidas pela comunidade
 
@@ -44,7 +44,7 @@ As seguintes bibliotecas clientes são oficialmente mantidas pela
 As seguintes bibliotecas de clientes da API do Kubernetes são fornecidas e mantidas por 
 seus autores, não pela equipe do Kubernetes.
 
-| Language             | Client Library                           |
+| Languagem             | Biblioteca do cliente                       |
 | -------------------- | ---------------------------------------- |
 | Clojure              | [github.com/yanatan16/clj-kubernetes-api](https://github.com/yanatan16/clj-kubernetes-api) |
 | DotNet               | [github.com/tonnyeremin/kubernetes_gen](https://github.com/tonnyeremin/kubernetes_gen) |
